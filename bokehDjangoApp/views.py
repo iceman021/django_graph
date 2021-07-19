@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.db import models
 from .models import Products
+import bokeh
 from bokeh.plotting import figure, output_file, show
 from bokeh.palettes import Spectral6
 from bokeh.embed import components
